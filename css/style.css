@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1108px;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #2F343A;
+    color: #FFFFFF;
+}
+
+.header-contacts {
+    background-color: #C8A35F;
+   
+}
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header  ############################################################*/
+
+header {}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0;
+}
+
+.header-top-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-line {
+    width: 46px;
+    height: 0;
+    border: 1px solid #F2F2F2;
+    transform: rotate(90deg);
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-link {
+    text-decoration: none;
+}
+
+.header-bot {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 155px 0 220px 0;
+}
+
+.header-border {
+    border: 1px solid #C8A35F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 71px 45px 72px;
+}
+
+.header-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.header-text {
+    max-width: 777px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
