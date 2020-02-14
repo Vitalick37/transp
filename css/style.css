@@ -96,3 +96,10 @@ header {}
     line-height: 28px;
     text-align: center;
 }
+
+.service {
+    background: linear-gradient(to right, #393F47 39.3%, transparent 39.3%, transparent 60.7%, #393F47 60.7%);
+   
+
+    height: 100px;
+}
