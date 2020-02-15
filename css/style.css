@@ -6,7 +6,9 @@
     margin: 0 auto;
     max-width: 1108px;
 }
-
+img {
+    max-width: 100%;
+}
 body {
     max-width: 1920px;
     margin: 0 auto;
@@ -61,6 +63,7 @@ header {}
 .header-bot {
     background-image: url(../img/header.png);
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     padding: 155px 0 220px 0;
