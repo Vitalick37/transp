@@ -125,7 +125,7 @@ header {}
     color: #FFFFFF;
 }
 
-.map {
+.map-icon {
     margin-right: 10px;
 }
 
@@ -235,6 +235,10 @@ header {}
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.service-wrapper-slider {
+    display: block;
+    max-width: 445px;
 }
 
 .linear-gor {
@@ -511,6 +515,13 @@ header {}
     text-align: center;
     color: #000000;
     margin-top: 15px;
+}
+
+/* map
+################################################################## */
+
+.map {
+    background: linear-gradient(0deg, rgba(57, 63, 71, 0.6), rgba(57, 63, 71, 0.6));
 }
 
 /* footer

@@ -1,11 +1,17 @@
 window.addEventListener('DOMContentLoaded', function () {
     'use strict';
 
-
-    var mySwiper = new Swiper('.swiper-container', {
-        speed: 400,
-        spaceBetween: 100,
+//    слайдер
+// ######################################################################
+    let mySwiper = new Swiper('.swiper-container', {
+        // speed: 400,
+        // spaceBetween: 100,
         slidesPerView: 1, 
+        navigation: {
+            nextEl: '.btn-forward',
+            prevEl: '.btn-back',
+        },
+        loop: true,
     });
 
 //    навигация
@@ -17,6 +23,11 @@ $('.menu-link').click(function(event) {
     let top = $(target).offset().top;
 $('html, body').animate({scrollTop: top}, 500);
 });
+
+//    карта
+// ######################################################################
+
+
     
 
 });
