@@ -520,8 +520,10 @@ header {}
 /* map
 ################################################################## */
 
-.map {
-    background: linear-gradient(0deg, rgba(57, 63, 71, 0.6), rgba(57, 63, 71, 0.6));
+.map-fon {
+    /* background: linear-gradient(0deg, rgba(57, 63, 71, 0.6), rgba(57, 63, 71, 0.6)); */
+    z-index: 10;
+    background-color: rgba(57, 63, 71, 0.6);
 }
 
 /* footer
