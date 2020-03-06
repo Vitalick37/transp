@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
 }
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
 
 .container {
     margin: 0 auto;
@@ -185,12 +191,6 @@ header {}
     padding: 155px 0 220px 0;
 }
 
-/* header:after {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-  } */
 
 .header-border {
     border: 1px solid #C8A35F;
@@ -385,10 +385,10 @@ header {}
 
 }
 
-.service-block:hover {
+/* .service-block:hover {
     background-color: #C8A35F;
     transition: 1.5s;
-}
+} */
 
 .service-name {
     font-family: Roboto;
@@ -408,6 +408,12 @@ header {}
     height: 70px;
     border-radius: 50%;
     background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+.service-icon-active {
+    display: none;
 }
 
 /* about_us

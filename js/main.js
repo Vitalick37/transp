@@ -27,7 +27,10 @@ $('html, body').animate({scrollTop: top}, 500);
 //    карта
 // ######################################################################
 
-
+//    service-block
+// ######################################################################
     
+let serviceBlock = document.querySelectorAll('service-block'),
+
 
 });
