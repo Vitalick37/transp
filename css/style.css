@@ -623,7 +623,7 @@ header {}
     .header-top {
         margin: 0 50px;
     }
-   
+
     .header-contacts {
         padding: 16px 50px 16px 50px;
     }
@@ -649,7 +649,7 @@ header {}
     .all_services {
         padding: 120px 50px;
     }
-    
+
     .about_us-right {
         max-width: 405px;
     }
@@ -657,105 +657,133 @@ header {}
     .footer {
         padding: 60px 50px;
     }
+
     .footer-wrapper {
         align-items: center;
     }
+
     .footer-contact {
         max-width: 365px;
     }
+
     .footer-tel {
         margin-left: 30px;
     }
+
     .footer-link {
         margin-left: 30px;
     }
 }
 
-    @media(max-width: 767px) {
-        .header-top {
-            margin: 0 20px;
-        }
-        .menu-item {
-            margin-left: 20px;
-        }
-        .menu-link {
-            text-transform: lowercase;
-        }
-        .header-bot {
-            padding: 120px 0 170px 0;
-        }
-        .header-title {
-            font-size: 48px;
-            margin-bottom: 25px;
-        }
-        .service {
-            padding: 100px 20px;
-        }
-        .service-wrapper-slider {
-            max-width: 390px;
-        }
-        .service-img {
-            max-width: 335px;
-        }
-        .slide-title {
-            font-size: 34px;
-            margin-top: 30px;
-        }
-        .service-slider {
-            padding-left: 8px;
-        }
-        .slide-description {
-            margin-top: 20px;
-        }
-        .slide-btn {
-            margin-top: 40px;
-        }
-        .all_services {
-            padding: 100px 20px;
-        }
-        .all_services-title {
-            font-size: 34px;
-            margin-top: 30px;
-        }
-        .all_services-content {
-            margin-top: 40px;
-            justify-content: flex-start;
-        }
-        .service-block {
-            padding: 35px 45px;
-        }
-        .service-name {
-            font-size: 16px;
-        }
-        .about_us {
-            padding: 80px 20px;
-        }
-        .about_us-wrapper {
-            flex-direction: column;
-        }
-        .about_us-title {
-            font-size: 34px;
-            margin-top: 30px;
-        }
-        .about_us-description {
-            margin-top: 20px;
-            max-width: 727px;
-        }
-        .about_us-right {
-            max-width: 727px;
-            margin-top: 20px;
-        }
-        .footer {
-            padding: 40px 20px;
-        }
-        .footer-wrapper {
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .footer-link {
-            margin-top: 10px;
-            margin-left: 580px;
-        }
-
-       
+@media(max-width: 767px) {
+    .header-top {
+        margin: 0 20px;
     }
+
+    .menu-item {
+        margin-left: 20px;
+    }
+
+    .menu-link {
+        text-transform: lowercase;
+    }
+
+    .header-bot {
+        padding: 120px 0 170px 0;
+    }
+
+    .header-title {
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+
+    .service {
+        padding: 100px 20px;
+    }
+
+    .service-wrapper-slider {
+        max-width: 390px;
+    }
+
+    .service-img {
+        max-width: 335px;
+    }
+
+    .slide-title {
+        font-size: 34px;
+        margin-top: 30px;
+    }
+
+    .service-slider {
+        padding-left: 8px;
+    }
+
+    .slide-description {
+        margin-top: 20px;
+    }
+
+    .slide-btn {
+        margin-top: 40px;
+    }
+
+    .all_services {
+        padding: 100px 20px;
+    }
+
+    .all_services-title {
+        font-size: 34px;
+        margin-top: 30px;
+    }
+
+    .all_services-content {
+        margin-top: 40px;
+        justify-content: flex-start;
+    }
+
+    .service-block {
+        padding: 35px 45px;
+    }
+
+    .service-name {
+        font-size: 16px;
+    }
+
+    .about_us {
+        padding: 80px 20px;
+    }
+
+    .about_us-wrapper {
+        flex-direction: column;
+    }
+
+    .about_us-title {
+        font-size: 34px;
+        margin-top: 30px;
+    }
+
+    .about_us-description {
+        margin-top: 20px;
+        max-width: 727px;
+    }
+
+    .about_us-right {
+        max-width: 727px;
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-link {
+        margin-top: 10px;
+        margin-left: 580px;
+    }
+
+
+}
