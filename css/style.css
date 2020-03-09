@@ -185,9 +185,10 @@ header {}
 ############################################################################## */
 
 .menu-mobile-btn {
+    display: none;
 	position: fixed;
-	left: 20px;
-	top: 20px;
+	right: 60px;
+	top: 70px;
 	background-color: #fff;
 	width: 50px;
 	height: 50px;
@@ -240,10 +241,11 @@ header {}
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transform: translateX(-100%);
+	transform: translateX(200%);
 }
 .active-menu {
-	transform: translateX(-20%);
+    transform: translateX(100%);
+    transition: transform 0.5s;
 }
 .menu-mobile-list {
 	list-style: none;
@@ -252,9 +254,15 @@ header {}
 	line-height: 3;
 }
 .menu-mobile-link {
-	font-size: 2rem;
-    color: #fff;
     text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .menu-mobile-link:hover {
@@ -629,7 +637,7 @@ header {}
 ################################################################## */
 
 .map-fon {
-    /* background: linear-gradient(0deg, rgba(57, 63, 71, 0.6), rgba(57, 63, 71, 0.6)); */
+   display: none;
     z-index: 10;
     background-color: rgba(57, 63, 71, 0.6);
 }
@@ -750,7 +758,12 @@ header {}
 
 @media (max-width: 992px) {
 
-    
+    .header-top {
+        margin: 0 20px;
+    }
+    .menu-item {
+        margin-left: 20px;
+    }
 
     .header-bot {
         padding: 120px 50px 170px 50px;
@@ -797,13 +810,7 @@ header {}
 }
 
 @media (max-width: 768px) {
-    .header-top {
-        margin: 0 20px;
-    }
-
-    .menu-item {
-        margin-left: 20px;
-    }
+   
 
     .menu-link {
         text-transform: lowercase;
@@ -814,8 +821,16 @@ header {}
         padding: 100px 20px;
     }
 
+    .service-wrapper {
+        flex-direction: column;
+        align-items: start;
+    }
+
     .service-img {
-        max-width: 335px;
+        display: none;
+    }
+    .service-btn {
+        justify-content: start;
     }
 
     .slide-title {
@@ -823,9 +838,7 @@ header {}
         margin-top: 30px;
     }
 
-    .service-slider {
-        padding-left: 8px;
-    }
+    
 
     .slide-description {
         margin-top: 20px;
@@ -892,6 +905,22 @@ header {}
     .footer-link {
         margin-top: 10px;
         margin-left: 580px;
+    }
+
+    @media (max-width: 720px) {
+        .menu-mobile-btn {
+            display: block;
+        }
+        .header-top-menu {
+            display: none;
+        }
+
+    }
+
+    @media (max-width: 576px) {
+        .menu-mobile-btn {
+        right: 160px;
+        }
     }
 
 

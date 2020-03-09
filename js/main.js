@@ -27,7 +27,16 @@ window.addEventListener('DOMContentLoaded', function () {
 	});
 	close.click(function() {
 		menu.toggleClass('active-menu');
-	});
+    });
+
+    
+    
+    $('.menu-mobile-link').click(function(event) {
+        event.preventDefault();
+        let target = $(this).attr('href');
+        let top = $(target).offset().top;
+    $('html, body').animate({scrollTop: top}, 500);
+    });
 
 //    навигация
 // ######################################################################
