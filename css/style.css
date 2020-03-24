@@ -103,6 +103,9 @@ header {}
     justify-content: space-between;
     align-items: center;
 }
+.map-text {
+    display: flex;
+}
 
 .map-link {
     text-decoration: none;
@@ -1028,8 +1031,42 @@ header {}
     }
 
     @media (max-width: 576px) {
+        .header-contacts {
+            padding: 16px 20px 16px 20px;
+        }
+        .header-top {
+            margin: 0 20px;
+        }
+        .map-text {
+margin-top: 10px;
+        }
+        .menu-mobile-btn {
+            position: fixed;
+            	right: 30px;
+    top: 55px;
+        }
+        .menu-mobile-list {
+            margin-top: 85px;
+        }
+        .header-bot {
+            padding: 50px 20px 60px 20px;
+        }
+        .header-border {
+            padding: 15px 20px 15px 20px;
+        }
+        .header-title {
+            font-size: 34px;
+            line-height: 60px;
+        }
+        .header-text {
+            font-size: 16px;
+            line-height: 26px;
+            text-align: justify;
+        }
       
-
+        .service {
+            padding: 50px 20px;
+        }
      .service-wrapper {
          flex-direction: column;
      }
@@ -1041,6 +1078,31 @@ header {}
         .btn-forward {
             margin-bottom: 0;
         }
+        .all_services {
+            padding: 50px 20px;
+        }
+        .all_services-title {
+            font-size: 32px;
+        }
+        .about_us {
+            padding: 50px 20px;
+        }
+        .about_us-right {
+            justify-content: center;
+        }
+        .footer-wrapper {
+            flex-direction: column;
+        }
+        .footer-contact {
+            margin-left: 0;
+           align-items: center;
+           margin-top: 25px;
+        }
+        .footer-tel, .footer-link {
+            margin-top: 25px;
+            margin-left: 0;
+        }
+       
     }
 
 
