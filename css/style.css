@@ -103,9 +103,7 @@ header {}
     justify-content: space-between;
     align-items: center;
 }
-.map-text {
-    display: flex;
-}
+
 
 .map-link {
     text-decoration: none;
@@ -444,14 +442,17 @@ header {}
     outline: none;
 }
 
+
+
+.btn-forward:active,
+.btn-back:active,
+.btn-forward:focus,
+.btn-back:focus {
+    color: #C8A35F;
+}
 .btn-forward:hover,
 .btn-back:hover {
     color: #ffffff;
-}
-
-.btn-forward:active,
-.btn-back:active {
-    color: #C8A35F;
 }
 
 /* all_service 
@@ -905,7 +906,9 @@ header {}
     .menu-link {
         text-transform: lowercase;
     }
-
+    .menu-mobile-list {
+        margin-top: 85px;
+    }
 
     .service {
         padding: 100px 50px;
@@ -936,6 +939,9 @@ header {}
 
     .slide-btn {
         margin-top: 40px;
+    }
+    .btn-forward {
+        margin-bottom: 155px;
     }
 
     .all_services {
@@ -1036,6 +1042,9 @@ header {}
         }
         .header-top {
             margin: 0 20px;
+        }
+        .map-text {
+            display: flex;
         }
         .map-text {
 margin-top: 10px;
