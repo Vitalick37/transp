@@ -649,7 +649,7 @@ header {}
 ################################################################## */
 
 .map-fon {
-   display: none;
+   /* display: none; */
     z-index: 10;
     background-color: rgba(57, 63, 71, 0.6);
 }
