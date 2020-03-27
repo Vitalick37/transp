@@ -104,6 +104,7 @@ header {}
     align-items: center;
 }
 
+
 .map-link {
     text-decoration: none;
     font-family: Roboto;
@@ -441,14 +442,17 @@ header {}
     outline: none;
 }
 
+
+
+.btn-forward:active,
+.btn-back:active,
+.btn-forward:focus,
+.btn-back:focus {
+    color: #C8A35F;
+}
 .btn-forward:hover,
 .btn-back:hover {
     color: #ffffff;
-}
-
-.btn-forward:active,
-.btn-back:active {
-    color: #C8A35F;
 }
 
 /* all_service 
@@ -902,7 +906,9 @@ header {}
     .menu-link {
         text-transform: lowercase;
     }
-
+    .menu-mobile-list {
+        margin-top: 85px;
+    }
 
     .service {
         padding: 100px 50px;
@@ -933,6 +939,9 @@ header {}
 
     .slide-btn {
         margin-top: 40px;
+    }
+    .btn-forward {
+        margin-bottom: 155px;
     }
 
     .all_services {
@@ -1028,8 +1037,45 @@ header {}
     }
 
     @media (max-width: 576px) {
+        .header-contacts {
+            padding: 16px 20px 16px 20px;
+        }
+        .header-top {
+            margin: 0 20px;
+        }
+        .map-text {
+            display: flex;
+        }
+        .map-text {
+margin-top: 10px;
+        }
+        .menu-mobile-btn {
+            position: fixed;
+            	right: 30px;
+    top: 55px;
+        }
+        .menu-mobile-list {
+            margin-top: 85px;
+        }
+        .header-bot {
+            padding: 50px 20px 60px 20px;
+        }
+        .header-border {
+            padding: 15px 20px 15px 20px;
+        }
+        .header-title {
+            font-size: 34px;
+            line-height: 60px;
+        }
+        .header-text {
+            font-size: 16px;
+            line-height: 26px;
+            text-align: justify;
+        }
       
-
+        .service {
+            padding: 50px 20px;
+        }
      .service-wrapper {
          flex-direction: column;
      }
@@ -1041,6 +1087,31 @@ header {}
         .btn-forward {
             margin-bottom: 0;
         }
+        .all_services {
+            padding: 50px 20px;
+        }
+        .all_services-title {
+            font-size: 32px;
+        }
+        .about_us {
+            padding: 50px 20px;
+        }
+        .about_us-right {
+            justify-content: center;
+        }
+        .footer-wrapper {
+            flex-direction: column;
+        }
+        .footer-contact {
+            margin-left: 0;
+           align-items: center;
+           margin-top: 25px;
+        }
+        .footer-tel, .footer-link {
+            margin-top: 25px;
+            margin-left: 0;
+        }
+       
     }
 
 
