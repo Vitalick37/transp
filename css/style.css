@@ -826,9 +826,17 @@ header {}
         letter-spacing: 0;
     }
 
-    /* .service {
-        padding: 155px 50px 220px 50px;
-    } */
+    .service {
+        padding: 120px 50px;
+    }
+    .service-btn {
+        display: none;
+        /* flex-direction: column; */
+    }
+    .service-img {
+        display: block;
+        width: 100%;
+    }
 
     .slide-title {
         font-size: 34px;
@@ -884,21 +892,22 @@ header {}
         max-width: 445px;
         
     }
-    .service-img {
+    /* .service-img {
         display: none;
-    }
+    } */
     .slide-title {
         font-size: 32px;
     }
     .service-btn {
-        flex-direction: column;
+        display: none;
+        /* flex-direction: column; */
     }
     .btn-forward {
         margin-bottom: 245px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header-border {
         padding: 35px 32px 35px 32px;
     }
@@ -922,9 +931,9 @@ header {}
     .service-img {
         display: none;
     }
-    .service-btn {
+    /* .service-btn {
         justify-content: start;
-    }
+    } */
 
     .slide-title {
         font-size: 32px;
@@ -1036,12 +1045,12 @@ header {}
 
     }
 
-    @media (max-width: 576px) {
+    @media (max-width: 575px) {
         .header-contacts {
             padding: 16px 20px 16px 20px;
         }
         .header-top {
-            margin: 0 20px;
+            margin: 0 10px;
         }
         .map-text {
             display: flex;
@@ -1051,7 +1060,7 @@ margin-top: 10px;
         }
         .menu-mobile-btn {
             position: fixed;
-            	right: 30px;
+            	right: 15px;
     top: 55px;
         }
         .menu-mobile-list {
@@ -1078,12 +1087,13 @@ margin-top: 10px;
         }
      .service-wrapper {
          flex-direction: column;
+         flex-wrap: nowrap;
      }
-        .service-btn {
+        /* .service-btn {
             display: flex;
             flex-direction: row-reverse;
             margin-top: 50px;
-        }
+        } */
         .btn-forward {
             margin-bottom: 0;
         }
@@ -1111,6 +1121,8 @@ margin-top: 10px;
             margin-top: 25px;
             margin-left: 0;
         }
+       
+       
        
     }
 

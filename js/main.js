@@ -12,6 +12,12 @@ window.addEventListener('DOMContentLoaded', function () {
             prevEl: '.btn-back',
         },
         loop: true,
+        breakpoints: {
+            320: {
+              spaceBetween: 20,
+            // width: 300
+            },
+        },
     });
 
     //    мобильное меню
