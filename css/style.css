@@ -1103,6 +1103,10 @@ margin-top: 10px;
             font-size: 16px;
           
         }
+        .service-wrapper-slider {
+        
+            padding-left: 20px;
+        }
         .btn-forward {
             margin-bottom: 0;
         }
