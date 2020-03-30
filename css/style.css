@@ -1094,6 +1094,15 @@ margin-top: 10px;
             flex-direction: row-reverse;
             margin-top: 50px;
         } */
+        .slide-title {
+            font-size: 29px;
+           
+        }
+        .slide-description {
+          
+            font-size: 16px;
+          
+        }
         .btn-forward {
             margin-bottom: 0;
         }
